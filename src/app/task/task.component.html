@@ -1,0 +1,29 @@
+<p>task works!</p>
+
+<div>this is a if stat</div>
+
+<a href="" [attr.data-link]="dataLink">hi</a>
+
+<div>
+    {{user.userId }},{{user.firstName | lowercase}} , {{user.lastName | uppercase}} , {{user.DOB | date:'MMMM dd YYYY'}}
+    {{user | json}}
+</div>
+<h4>chaining pipes </h4>
+<div>
+    {{user.DOB | date:'MMMM' | uppercase}}
+</div>
+<h4>custom pipes </h4>
+<div>{{user.city | highlight:user.city}}</div>
+<ol>
+    xxv
+    <li *ngFor="let item of task">
+        <div>
+            {{item.city | highlight:item.city}}
+        </div>
+    </li>
+</ol>
+<ol>
+    <li *ngFor="let i of task">
+        <div [innerHTML]="i.cityCode | bright:i.cityCode"></div>
+    </li>
+</ol>

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,KAAK,AAAA,WAAW,AAAA,WAAW,CAAA;EACvB,MAAM,EAAE,aAAa;CACxB",
+    "sources": [
+        "signin.component.scss"
+    ],
+    "names": [],
+    "file": "signin.component.css"
+}
